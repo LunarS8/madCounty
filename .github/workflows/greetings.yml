@@ -9,5 +9,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Hi! Thank you for your contribution, I'' ll make sure to review it ASAP. Hope to see you again.'
-        pr-message: 'Thanks for your interest, your pr has been received and will be reviewed shortly.'
+        issue-message: 'Thanks for your contribution! I'' ll make sure to review your issue and reply ASAP.'
+        pr-message: 'Welcome! Thanks for your interest in my repository, I will certainly review your PR.'
